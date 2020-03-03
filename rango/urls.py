@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from rango_Defualt import views
+from rango_Defualt import views as rg_views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('homepage/',views.homepage,),
+    path('',rg_views.homepage),
     path('rango/',include('rango_Defualt.urls')),
 ]
