@@ -7,7 +7,30 @@ header{
     display: flex;
     flex-direction: row;
      width:100%;
+    position: sticky;
+    top:0;
+    left:0;
 
+}
+ul{
+    list-style: none;
+}
+a{
+        text-decoration: none;
+}
+a:link{
+    color: #dfe0e1;
+}
+a:visited{
+    color: black;
+}
+.highlight_links:link{
+    color: blue;
+}
+
+.highlight_links:hover{
+    color: #1f58ad;
+    text-decoration: underline;
 }
 
 header>div{
@@ -16,7 +39,7 @@ header>div{
     color: white;
 }
 header>div>span{
-     padding: 8px 10px 8px 10px;
+     padding: 10px;
 }
 #top_bar{
      background-color: rgb(53,58,64);
@@ -25,12 +48,13 @@ header>div>span{
 #top_bar>nav{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 #top_bar>nav>span>a{
     display: block;
     padding: 10px;
+    font-size: 0.8rem;
     color: grey;
-    text-decoration: none;
 }
 #top_bar>nav>span>a:hover{
     color: white;
@@ -40,23 +64,94 @@ main{
     display: flex;
     flex-direction: row;
 }
-
+#side_bar{
+    background-color: #f8f9fa;
+    border-right: solid #dfe0e1 1px;
+    width: 20%;
+}
 #side_links{
     display: flex;
     flex-direction: column;
 }
-#side_links>span{
-    display: block;
+#side_links>li{
+    display: flex;
+    align-items: center;
     padding:15px;
 }
+#side_links>li>svg{
+    color: gray;
+    height: 20px;
+}
+#side_links>li>a{
+    margin-left: 5px;
+    font-size: 0.5rem;
+}
+#side_searchBar{
+    padding: 8px 20px;
+    background-color: white;
+    position: sticky;
+    top:50px;
+    left: 0;
+}
 #side_searchBar>input{
-    padding: 100px;
+    display: block;
+    border: solid #dfe0e1 1px ;
+    background-color: white;
+    width: 100%;
+    margin-left:-8px ;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
 }
 #Dep_Wins{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
+#Dep_N1{
+    margin: 10px 20px;
+    padding: 20px 120px;
+    background-color: #eaecef;
+    color: #222529;
+    border-radius: 8px;
+}
+#Dep_N1 h1{
+    font-size: 3rem;
+}
+#Dep_N1 h2{
+    font-size: 2rem;
+}
+#Dep_N1 span{
+    font-weight: bold;
+}
+
 #Dep_N2{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.Dep_card{
+    border: solid #dfdfdf 1px;
+    border-radius: 5px;
+    width: 40%;
+    margin: 10px;
+}
+.Dep_card>h1{
+    margin: 10px;
+    padding: 10px 0;
+}
+.like_links{
+    display: flex;
+    flex-direction: column;
+    border: solid #dfdfdf 1px;
+    border-radius: 5px;
+    margin: 0px 30px 30px;
+}
+.like_links>li{
+    padding: 10px 30px;
+    border-bottom: solid #dfdfdf 1px;
+}
+#Dep_N3{
+    margin: 30px;
 }

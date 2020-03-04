@@ -17,29 +17,42 @@
 
 <main>
     <nav id="side_bar">
-        <div id="side_searchBar" height="100px"><input type="search" placeholder="search..." style="" ></div>
-        <div id="side_links"><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span></div>
+        <div id="side_searchBar"><input type="search" placeholder="search..." style="" ></div>
+        <ul id="side_links">
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg><a href="">Python</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg><a href="">Django</a></li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg><a href="">HTML</a></li>
+               <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-archive"><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></svg><a href="">CSS</a></li>
+        </ul>
     </nav>
     <div id="Dep_Wins">
         <div id="Dep_N1">
-            <div>Rango Says <em>{{ rangoSays }}</em></div>
-            <div>hey there partner!</div>
-            <div>Crunchy, creamy, cookie, candy, cupcake!</div>
+            <h1>Rango Says <em>{{ rangoSays }}</em></h1>
+            <h2>hey there partner!</h2>
+            <span>Crunchy, creamy, cookie, candy, cupcake!</span>
         </div>
         <div id="Dep_N2">
-            <div>
+            <div class="Dep_card">
                 <h1>Most liked Categories</h1>
-                <div><a href="">Python</a><a href="">Django</a><a href="">Others</a></div>
+                <ul class="like_links">
+                    <li><a class="highlight_links" href="w">Python</a></li>
+                    <li><a class="highlight_links" href="w">Django</a></li>
+                    <li><a class="highlight_links" href="w">Others</a></li>
+                </ul>
             </div>
-            <div>
-                <h1>Most liked Categories</h1>
-                <div><a href="">Python</a><a href="">Django</a><a href="">Others</a></div>
+            <div class="Dep_card">
+                <h1>Most viewed Categories</h1>
+                <ul class="like_links">
+                    <li><a class="highlight_links" href="w">Python</a></li>
+                    <li><a class="highlight_links" href="w">Django</a></li>
+                    <li><a class="highlight_links" href="w">Others</a></li>
+                </ul>
             </div>
         </div>
         <div id="Dep_N3">
             <img src="{% static 'imgs/Saber.jpg' %}" alt="Saber" height="500px" width="400px">
         </div>
-        <div id="policy_info"><a href="">2020 Rango</a>.<a href="">Privacy</a>.<a href="">Terms</a></div>
+        <div id="policy_info"><a href="">2020 Rango</a>.<a class='highlight_links' href="www">Privacy</a>.<a class='highlight_links'href="www">Terms</a></div>
     </div>
 </main>
 </body>
