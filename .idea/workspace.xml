@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cd88941-1508-416d-a6e4-fdf512c3c430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/rango_Defualt/demo_html.html" afterDir="false" />
+    <list default="true" id="5cd88941-1508-416d-a6e4-fdf512c3c430" name="Default Changelist" comment="Add gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango_Defualt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango_Defualt/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rango_Defualt/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rango_Defualt/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="62406ad23017e16dcb42756a86e9dcc6693fd851" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XVsrfzlBNueGfWNUUuswOCkGaS" />
@@ -92,6 +93,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581174827434">
       <screen x="0" y="23" width="1680" height="949" />
@@ -106,35 +118,35 @@
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state x="627" y="257" key="FileChooserDialogImpl/0.23.1680.945@0.23.1680.945" timestamp="1581143781315" />
-    <state width="1562" height="239" key="GridCell.Tab.0.bottom" timestamp="1581176051689">
+    <state width="1638" height="239" key="GridCell.Tab.0.bottom" timestamp="1583328711769">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1638" height="239" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581169202011" />
-    <state width="1562" height="239" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1581176051689" />
+    <state width="1638" height="239" key="GridCell.Tab.0.bottom/0.23.1680.945@0.23.1680.945" timestamp="1583328711769" />
     <state width="1562" height="239" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1581166262997" />
     <state width="1562" height="239" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581172988162" />
     <state width="1358" height="239" key="GridCell.Tab.0.bottom/0.23.2560.1335@0.23.2560.1335" timestamp="1581155308445" />
-    <state width="1562" height="239" key="GridCell.Tab.0.center" timestamp="1581176051688">
+    <state width="1638" height="239" key="GridCell.Tab.0.center" timestamp="1583328711768">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1638" height="239" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581169202010" />
-    <state width="1562" height="239" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1581176051688" />
+    <state width="1638" height="239" key="GridCell.Tab.0.center/0.23.1680.945@0.23.1680.945" timestamp="1583328711768" />
     <state width="1562" height="239" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1581166262996" />
     <state width="1562" height="239" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581172988161" />
     <state width="1358" height="239" key="GridCell.Tab.0.center/0.23.2560.1335@0.23.2560.1335" timestamp="1581155308444" />
-    <state width="1562" height="239" key="GridCell.Tab.0.left" timestamp="1581176051675">
+    <state width="1638" height="239" key="GridCell.Tab.0.left" timestamp="1583328711768">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1638" height="239" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581169202009" />
-    <state width="1562" height="239" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1581176051675" />
+    <state width="1638" height="239" key="GridCell.Tab.0.left/0.23.1680.945@0.23.1680.945" timestamp="1583328711768" />
     <state width="1562" height="239" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1581166262995" />
     <state width="1562" height="239" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581172988160" />
     <state width="1358" height="239" key="GridCell.Tab.0.left/0.23.2560.1335@0.23.2560.1335" timestamp="1581155308443" />
-    <state width="1562" height="239" key="GridCell.Tab.0.right" timestamp="1581176051689">
+    <state width="1638" height="239" key="GridCell.Tab.0.right" timestamp="1583328711769">
       <screen x="0" y="23" width="1680" height="945" />
     </state>
     <state width="1638" height="239" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581169202011" />
-    <state width="1562" height="239" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1581176051689" />
+    <state width="1638" height="239" key="GridCell.Tab.0.right/0.23.1680.945@0.23.1680.945" timestamp="1583328711769" />
     <state width="1562" height="239" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1581166262996" />
     <state width="1562" height="239" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581172988161" />
     <state width="1358" height="239" key="GridCell.Tab.0.right/0.23.2560.1335@0.23.2560.1335" timestamp="1581155308444" />
@@ -147,6 +159,10 @@
     </state>
     <state x="517" y="328" key="com.intellij.ide.util.TipDialog/-2560.23.2560.1417/0.23.1680.945@0.23.1680.945" timestamp="1581154545573" />
     <state x="517" y="328" key="com.intellij.ide.util.TipDialog/0.23.1680.945@0.23.1680.945" timestamp="1581536409502" />
+    <state x="586" y="215" key="git4idea.branch.GitSmartOperationDialog" timestamp="1583331188758">
+      <screen x="0" y="23" width="1680" height="945" />
+    </state>
+    <state x="586" y="215" key="git4idea.branch.GitSmartOperationDialog/0.23.1680.945@0.23.1680.945" timestamp="1583331188758" />
     <state x="505" y="241" width="670" height="679" key="search.everywhere.popup" timestamp="1581174841336">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
