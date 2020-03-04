@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rango</title>
+    <link rel="stylesheet" href="{% static 'CSS/homepage.css' %}">
+</head>
+<body>
+<header>
+    <div><span>Rango</span></div>
+    <div id="top_bar">
+        <nav><span><a href="">Home</a></span><span><a href="about/">About</a></span><span><a href="">Register Here</a></span><span><a
+                href="">Login</a></span></nav>
+    </div>
+</header>
+
+<main>
+    <nav id="side_bar">
+        <div id="side_searchBar" height="100px"><input type="search" placeholder="search..." style="" ></div>
+        <div id="side_links"><span>Python</span><span>Django</span><span>HTML</span><span>CSS</span></div>
+    </nav>
+    <div id="Dep_Wins">
+        <div id="Dep_N1">
+            <div>Rango Says <em>{{ rangoSays }}</em></div>
+            <div>hey there partner!</div>
+            <div>Crunchy, creamy, cookie, candy, cupcake!</div>
+        </div>
+        <div id="Dep_N2">
+            <div>
+                <h1>Most liked Categories</h1>
+                <div><a href="">Python</a><a href="">Django</a><a href="">Others</a></div>
+            </div>
+            <div>
+                <h1>Most liked Categories</h1>
+                <div><a href="">Python</a><a href="">Django</a><a href="">Others</a></div>
+            </div>
+        </div>
+        <div id="Dep_N3">
+            <img src="{% static 'imgs/Saber.jpg' %}" alt="Saber" height="500px" width="400px">
+        </div>
+        <div id="policy_info"><a href="">2020 Rango</a>.<a href="">Privacy</a>.<a href="">Terms</a></div>
+    </div>
+</main>
+</body>
