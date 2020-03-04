@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Rango</title>
+    <link rel="stylesheet" href="{% static 'CSS/demo_html.css' %}">
 </head>
 
 <body>
@@ -23,8 +25,10 @@
         else{span1.innerHTML='';flag=0;}
     }
         button1.onclick=function1;
-    </script>
 
+
+    </script>
+    <img src="{% static  'imgs/saber.jpg'%}">
 
     <div>11111111</div>
     <div>22222222</div>

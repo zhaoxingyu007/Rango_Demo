@@ -8,3 +8,6 @@ def homepage(request):
 
 def demo_html(request):
     return render(request, 'rango_Defualt/demo_html.html')
+
+def re_sikiro(request):
+    return HttpResponse("<img src='/media/sikiro.png'>")

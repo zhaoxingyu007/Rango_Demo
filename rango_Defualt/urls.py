@@ -6,5 +6,6 @@ app_name = 'rango_Defualt'
 
 urlpatterns=[
     path('',views.homepage,name='homepage'),
-    path('demo/',views.demo_html,name='demopage')
+    path('demo/',views.demo_html,name='demopage'),
+    path('pic/', views.re_sikiro, name='pic'),
 ]
